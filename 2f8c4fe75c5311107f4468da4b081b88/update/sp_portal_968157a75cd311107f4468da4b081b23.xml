@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <css_variables/>
+        <default>false</default>
+        <enable_ais>true</enable_ais>
+        <enable_favorites>false</enable_favorites>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="covid_home">38c353275c1711107f4468da4b081bd7</homepage>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page/>
+        <logo/>
+        <notfound_page/>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <search_application display_value="Service Portal Default Search Application">00731b9d5b231010d9a5ce1a8581c7dd</search_application>
+        <search_results_configuration display_value="Service Portal Search">80eb579d53671010968addeeff7b1215</search_results_configuration>
+        <sp_chat_queue/>
+        <sp_rectangle_menu display_value="Employee Center Menu">493d01365368301056c1ddeeff7b1207</sp_rectangle_menu>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>nd71230</sys_created_by>
+        <sys_created_on>2022-11-27 17:32:51</sys_created_on>
+        <sys_id>968157a75cd311107f4468da4b081b23</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Covid</sys_name>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>sp_portal_968157a75cd311107f4468da4b081b23</sys_update_name>
+        <sys_updated_by>nd71230</sys_updated_by>
+        <sys_updated_on>2022-11-27 17:46:16</sys_updated_on>
+        <theme display_value="Covid Theme">0af1136b5cd311107f4468da4b081bef</theme>
+        <title>Covid</title>
+        <ts_index_group/>
+        <url_suffix>covid</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=968157a75cd311107f4468da4b081b23"/>
+</record_update>
