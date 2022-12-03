@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_mapping">
+    <sys_declarative_action_payload_mapping action="INSERT_OR_UPDATE">
+        <action_payload_definition display_value="knowledge_navigation">e2114a3b049711107f44e6a269a50efe</action_payload_definition>
+        <label>custom_navigation Evam</label>
+        <model display_value="Evam">035d270073151010c342d5fdbdf6a715</model>
+        <payload_map>table={{table}}^sysparm_article={{number}}^url={{navigation_url}}^EQ</payload_map>
+        <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
+        <sys_created_by>nd71230</sys_created_by>
+        <sys_created_on>2022-11-28 06:21:14</sys_created_on>
+        <sys_id>cf718abb049711107f44e6a269a50e51</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>custom_navigation Evam</sys_name>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_mapping_cf718abb049711107f44e6a269a50e51</sys_update_name>
+        <sys_updated_by>nd71230</sys_updated_by>
+        <sys_updated_on>2022-11-29 06:05:45</sys_updated_on>
+    </sys_declarative_action_payload_mapping>
+</record_update>

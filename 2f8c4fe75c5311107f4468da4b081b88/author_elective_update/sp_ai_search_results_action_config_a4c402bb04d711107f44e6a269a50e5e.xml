@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_ai_search_results_action_config">
+    <sp_ai_search_results_action_config action="DELETE">
+        <action_name display_value="knowledge_navigation">ea444ef704d711107f44e6a269a50e77</action_name>
+        <active>false</active>
+        <additional_query_parameters/>
+        <ai_search_source display_value="Covid Knowledge Articles">e05b7137041711107f44e6a269a50e57</ai_search_source>
+        <order>10</order>
+        <payload_field_table>var__m_sys_declarative_action_payload_field_e2114a3b049711107f44e6a269a50efe</payload_field_table>
+        <payload_query_parameters>sysid=sys_id^EQ</payload_query_parameters>
+        <portal_page display_value="kb_article">dea5792147132100ba13a5554ee4902d</portal_page>
+        <portals>968157a75cd311107f4468da4b081b23</portals>
+        <short_description>Covid KA</short_description>
+        <sys_class_name>sp_ai_search_results_action_config</sys_class_name>
+        <sys_created_by>nd71230</sys_created_by>
+        <sys_created_on>2022-11-28 06:36:03</sys_created_on>
+        <sys_id>a4c402bb04d711107f44e6a269a50e5e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Covid KA</sys_name>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>sp_ai_search_results_action_config_a4c402bb04d711107f44e6a269a50e5e</sys_update_name>
+        <sys_updated_by>nd71230</sys_updated_by>
+        <sys_updated_on>2022-11-28 06:57:52</sys_updated_on>
+    </sp_ai_search_results_action_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</application>
+        <file_path/>
+        <instance_id>c70df9a697971150102335bfe153af55</instance_id>
+        <instance_name>nowlearning-nlinst00457341-001</instance_name>
+        <name>sp_ai_search_results_action_config_a4c402bb04d711107f44e6a269a50e5e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_ai_search_results_action_config"><sp_ai_search_results_action_config action="INSERT_OR_UPDATE"><action_name display_value="knowledge_navigation">ea444ef704d711107f44e6a269a50e77</action_name><active>false</active><additional_query_parameters/><ai_search_source display_value="Covid Knowledge Articles">e05b7137041711107f44e6a269a50e57</ai_search_source><order>10</order><payload_field_table>var__m_sys_declarative_action_payload_field_e2114a3b049711107f44e6a269a50efe</payload_field_table><payload_query_parameters>sysid=sys_id^EQ</payload_query_parameters><portal_page display_value="kb_article">dea5792147132100ba13a5554ee4902d</portal_page><portals>968157a75cd311107f4468da4b081b23</portals><short_description>Covid KA</short_description><sys_class_name>sp_ai_search_results_action_config</sys_class_name><sys_created_by>nd71230</sys_created_by><sys_created_on>2022-11-28 06:36:03</sys_created_on><sys_id>a4c402bb04d711107f44e6a269a50e5e</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Covid KA</sys_name><sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package><sys_policy/><sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope><sys_update_name>sp_ai_search_results_action_config_a4c402bb04d711107f44e6a269a50e5e</sys_update_name><sys_updated_by>nd71230</sys_updated_by><sys_updated_on>2022-11-28 06:57:52</sys_updated_on></sp_ai_search_results_action_config></record_update>]]></payload>
+        <payload_hash>-574531931</payload_hash>
+        <record_name>Covid KA</record_name>
+        <reverted_from/>
+        <source>9111dfa35cd311107f4468da4b081ba4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nd71230</sys_created_by>
+        <sys_created_on>2022-11-28 06:57:52</sys_created_on>
+        <sys_id>37d94af7045b11107f44e6a269a50e17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184bd0724580000001</sys_recorded_at>
+        <sys_updated_by>nd71230</sys_updated_by>
+        <sys_updated_on>2022-11-28 06:57:52</sys_updated_on>
+        <type>AI Search Results Action Configuration</type>
+        <update_guid>7fd94af7765b1110ac3a0edcf4c66c16</update_guid>
+        <update_guid_history>7fd94af7765b1110ac3a0edcf4c66c16:-574531931,ca99cef3b45b1110d6d37f5306be4463:-1762136674,3d39c2f3515b111015705fd78280ff5a:2042078104,13a64af3451b1110a63637b83e899149:-1996140269,2586c273ce1b11100ee7e2536921edaa:1767074902,e445cafb51d711102911c01c93ef2318:-399559797,10e4067bccd711103431c313d75997ad:-1940387690</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Covid KA">a6e510c4a82311107f44090726755475</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nd71230</sys_created_by>
+        <sys_created_on>2022-11-28 17:09:43</sys_created_on>
+        <sys_db_object display_value="" name="sp_ai_search_results_action_config">sp_ai_search_results_action_config</sys_db_object>
+        <sys_id>15e8a85901d94bbf957d8ea038a81a29</sys_id>
+        <sys_metadata>a4c402bb04d711107f44e6a269a50e5e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Covid KA</sys_name>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_scope_delete display_value="">9e9197cacf614c88a92e610ccf14b844</sys_scope_delete>
+        <sys_update_name>sp_ai_search_results_action_config_a4c402bb04d711107f44e6a269a50e5e</sys_update_name>
+        <sys_update_version display_value="sp_ai_search_results_action_config_a4c402bb04d711107f44e6a269a50e5e">37d94af7045b11107f44e6a269a50e17</sys_update_version>
+        <sys_updated_by>nd71230</sys_updated_by>
+        <sys_updated_on>2022-11-28 17:09:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

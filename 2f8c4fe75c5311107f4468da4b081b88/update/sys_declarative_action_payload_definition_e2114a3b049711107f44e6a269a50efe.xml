@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition">
+    <sys_declarative_action_payload_definition action="INSERT_OR_UPDATE">
+        <action_key>Knowledge Navigation</action_key>
+        <applicable_to>035d270073151010c342d5fdbdf6a715</applicable_to>
+        <description/>
+        <label>knowledge_navigation</label>
+        <payload_field_table>var__m_sys_declarative_action_payload_field_e2114a3b049711107f44e6a269a50efe</payload_field_table>
+        <payload_template>{&#13;
+"url":"{{navigation_url}}",&#13;
+"table":"{{table}}",&#13;
+"sysparm_article":"{{number}}"&#13;
+}</payload_template>
+        <sys_class_name>sys_declarative_action_payload_definition</sys_class_name>
+        <sys_created_by>nd71230</sys_created_by>
+        <sys_created_on>2022-11-28 06:21:11</sys_created_on>
+        <sys_id>e2114a3b049711107f44e6a269a50efe</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>knowledge_navigation</sys_name>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_definition_e2114a3b049711107f44e6a269a50efe</sys_update_name>
+        <sys_updated_by>nd71230</sys_updated_by>
+        <sys_updated_on>2022-11-29 06:05:45</sys_updated_on>
+    </sys_declarative_action_payload_definition>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Covid Knowledge Articles">e05b7137041711107f44e6a269a50e57</ais_search_source>
+        <label>Knowledge</label>
+        <name>Covid Knowledge Articles</name>
+        <order>100</order>
+        <search_context_config display_value="Covid Search Application">fd1db9ff041711107f44e6a269a50ee4</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>nd71230</sys_created_by>
+        <sys_created_on>2022-11-28 06:02:14</sys_created_on>
+        <sys_id>452dbdbf041711107f44e6a269a50eb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Covid Knowledge Articles</sys_name>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>sys_search_filter_452dbdbf041711107f44e6a269a50eb5</sys_update_name>
+        <sys_updated_by>nd71230</sys_updated_by>
+        <sys_updated_on>2022-11-28 06:02:14</sys_updated_on>
+    </sys_search_filter>
+</record_update>

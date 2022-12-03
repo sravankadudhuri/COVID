@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_ai_search_results_action_config">
+    <sp_ai_search_results_action_config action="INSERT_OR_UPDATE">
+        <action_name display_value="knowledge_navigation">ea444ef704d711107f44e6a269a50e77</action_name>
+        <active>true</active>
+        <additional_query_parameters/>
+        <ai_search_source display_value="Covid Knowledge Articles">e05b7137041711107f44e6a269a50e57</ai_search_source>
+        <order>10</order>
+        <payload_field_table>var__m_sys_declarative_action_payload_field_e2114a3b049711107f44e6a269a50efe</payload_field_table>
+        <payload_query_parameters/>
+        <portal_page display_value="kb_article">dea5792147132100ba13a5554ee4902d</portal_page>
+        <portals>968157a75cd311107f4468da4b081b23</portals>
+        <short_description>Knowledge navigation</short_description>
+        <sys_class_name>sp_ai_search_results_action_config</sys_class_name>
+        <sys_created_by>nd71230</sys_created_by>
+        <sys_created_on>2022-11-28 17:24:48</sys_created_on>
+        <sys_id>d54958c8a82311107f44090726755441</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Knowledge navigation</sys_name>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>sp_ai_search_results_action_config_d54958c8a82311107f44090726755441</sys_update_name>
+        <sys_updated_by>nd71230</sys_updated_by>
+        <sys_updated_on>2022-11-29 06:26:41</sys_updated_on>
+    </sp_ai_search_results_action_config>
+</record_update>

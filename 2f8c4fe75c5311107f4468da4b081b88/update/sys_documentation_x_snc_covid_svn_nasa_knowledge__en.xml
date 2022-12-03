@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Nasa Knowledge" language="en" table="x_snc_covid_svn_nasa_knowledge">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Nasa Knowledge</label>
+            <language>en</language>
+            <name>x_snc_covid_svn_nasa_knowledge</name>
+            <plural>Nasa Knowledges</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>nd71230</sys_created_by>
+            <sys_created_on>2022-12-03 14:53:25</sys_created_on>
+            <sys_id>aea629adc06711107f44def6ca82504d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Nasa Knowledge</sys_name>
+            <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_covid_svn_nasa_knowledge__en</sys_update_name>
+            <sys_updated_by>nd71230</sys_updated_by>
+            <sys_updated_on>2022-12-03 14:53:25</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

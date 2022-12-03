@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="DELETE">
+        <dataset display_value="Covid Portal Search">ccedb937045711107f44e6a269a50e39</dataset>
+        <order>100</order>
+        <predicate_bundle display_value="ESC Portal Search Bundle">34e7294753571010069addeeff7b1222</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>nd71230</sys_created_by>
+        <sys_created_on>2022-11-28 06:07:06</sys_created_on>
+        <sys_id>8b2eb9b7045711107f44e6a269a50ecb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_8b2eb9b7045711107f44e6a269a50ecb</sys_update_name>
+        <sys_updated_by>nd71230</sys_updated_by>
+        <sys_updated_on>2022-11-28 06:07:06</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</application>
+        <file_path/>
+        <instance_id>c70df9a697971150102335bfe153af55</instance_id>
+        <instance_name>nowlearning-nlinst00457341-001</instance_name>
+        <name>sys_ux_composite_data_m2m_predicate_bundle_8b2eb9b7045711107f44e6a269a50ecb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle"><sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE"><dataset display_value="Covid Portal Search">ccedb937045711107f44e6a269a50e39</dataset><order>100</order><predicate_bundle display_value="ESC Portal Search Bundle">34e7294753571010069addeeff7b1222</predicate_bundle><sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name><sys_created_by>nd71230</sys_created_by><sys_created_on>2022-11-28 06:07:06</sys_created_on><sys_id>8b2eb9b7045711107f44e6a269a50ecb</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package><sys_policy/><sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope><sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_8b2eb9b7045711107f44e6a269a50ecb</sys_update_name><sys_updated_by>nd71230</sys_updated_by><sys_updated_on>2022-11-28 06:07:06</sys_updated_on></sys_ux_composite_data_m2m_predicate_bundle></record_update>]]></payload>
+        <payload_hash>975491758</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>9111dfa35cd311107f4468da4b081ba4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nd71230</sys_created_by>
+        <sys_created_on>2022-11-28 06:07:07</sys_created_on>
+        <sys_id>5c4e71b7045711107f44e6a269a50e59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184bcd8aaf90000001</sys_recorded_at>
+        <sys_updated_by>nd71230</sys_updated_by>
+        <sys_updated_on>2022-11-28 06:07:07</sys_updated_on>
+        <type>EVAM View Config Bundle M2M</type>
+        <update_guid>944e71b7ac57111033ee0e7c79092059</update_guid>
+        <update_guid_history>944e71b7ac57111033ee0e7c79092059:975491758</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nd71230</sys_created_by>
+        <sys_created_on>2022-11-28 06:08:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_composite_data_m2m_predicate_bundle">sys_ux_composite_data_m2m_predicate_bundle</sys_db_object>
+        <sys_id>2af27169772644dd975b2e4bbe27f749</sys_id>
+        <sys_metadata>8b2eb9b7045711107f44e6a269a50ecb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_scope_delete display_value="">9e9197cacf614c88a92e610ccf14b844</sys_scope_delete>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_8b2eb9b7045711107f44e6a269a50ecb</sys_update_name>
+        <sys_update_version display_value="sys_ux_composite_data_m2m_predicate_bundle_8b2eb9b7045711107f44e6a269a50ecb">5c4e71b7045711107f44e6a269a50e59</sys_update_version>
+        <sys_updated_by>nd71230</sys_updated_by>
+        <sys_updated_on>2022-11-28 06:08:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

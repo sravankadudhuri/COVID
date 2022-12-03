@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
+        <declarative_action_assignment display_value="knowledge_navigation">ea444ef704d711107f44e6a269a50e77</declarative_action_assignment>
+        <predicate display_value="Covid Knowledge">6b9e397b045711107f44e6a269a50ee1</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>nd71230</sys_created_by>
+        <sys_created_on>2022-11-28 06:42:40</sys_created_on>
+        <sys_id>7f5642b3041b11107f44e6a269a50eb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_7f5642b3041b11107f44e6a269a50eb8</sys_update_name>
+        <sys_updated_by>nd71230</sys_updated_by>
+        <sys_updated_on>2022-11-28 06:42:40</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+</record_update>
