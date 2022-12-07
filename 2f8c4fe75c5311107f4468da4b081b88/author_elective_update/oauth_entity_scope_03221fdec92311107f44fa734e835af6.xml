@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_scope">
+    <oauth_entity_scope action="DELETE">
+        <in_default_profile>false</in_default_profile>
+        <name>resource</name>
+        <oauth_entity display_value="Sharepoint">6e3788d648a711107f447e624cfae974</oauth_entity>
+        <oauth_entity_scope/>
+        <sys_class_name>oauth_entity_scope</sys_class_name>
+        <sys_created_by>nd71230</sys_created_by>
+        <sys_created_on>2022-12-06 07:02:16</sys_created_on>
+        <sys_id>03221fdec92311107f44fa734e835af6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>resource</sys_name>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>oauth_entity_scope_03221fdec92311107f44fa734e835af6</sys_update_name>
+        <sys_updated_by>nd71230</sys_updated_by>
+        <sys_updated_on>2022-12-06 07:02:16</sys_updated_on>
+    </oauth_entity_scope>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</application>
+        <file_path/>
+        <instance_id>c70df9a697971150102335bfe153af55</instance_id>
+        <instance_name>nowlearning-nlinst00457341-001</instance_name>
+        <name>oauth_entity_scope_03221fdec92311107f44fa734e835af6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_scope"><oauth_entity_scope action="INSERT_OR_UPDATE"><in_default_profile>false</in_default_profile><name>resource</name><oauth_entity display_value="Sharepoint">6e3788d648a711107f447e624cfae974</oauth_entity><oauth_entity_scope/><sys_class_name>oauth_entity_scope</sys_class_name><sys_created_by>nd71230</sys_created_by><sys_created_on>2022-12-06 07:02:16</sys_created_on><sys_id>03221fdec92311107f44fa734e835af6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>resource</sys_name><sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package><sys_policy/><sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope><sys_update_name>oauth_entity_scope_03221fdec92311107f44fa734e835af6</sys_update_name><sys_updated_by>nd71230</sys_updated_by><sys_updated_on>2022-12-06 07:02:16</sys_updated_on></oauth_entity_scope></record_update>]]></payload>
+        <payload_hash>226763969</payload_hash>
+        <record_name>resource</record_name>
+        <reverted_from/>
+        <source>90f8e5a9c0a711107f44def6ca82501a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nd71230</sys_created_by>
+        <sys_created_on>2022-12-06 07:02:16</sys_created_on>
+        <sys_id>5a97df16c96311107f44fa734e835a4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184e63e0c700000001</sys_recorded_at>
+        <sys_updated_by>nd71230</sys_updated_by>
+        <sys_updated_on>2022-12-06 07:02:16</sys_updated_on>
+        <type>OAuth Entity Scope</type>
+        <update_guid>9297df160b631110d049913e94a7b04e</update_guid>
+        <update_guid_history>9297df160b631110d049913e94a7b04e:226763969</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="resource">655a571ac96311107f44fa734e835a38</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nd71230</sys_created_by>
+        <sys_created_on>2022-12-06 07:14:14</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity_scope">oauth_entity_scope</sys_db_object>
+        <sys_id>042325ef7fd6433784874ff0e183b451</sys_id>
+        <sys_metadata>03221fdec92311107f44fa734e835af6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>resource</sys_name>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_scope_delete display_value="">9e9197cacf614c88a92e610ccf14b844</sys_scope_delete>
+        <sys_update_name>oauth_entity_scope_03221fdec92311107f44fa734e835af6</sys_update_name>
+        <sys_update_version display_value="oauth_entity_scope_03221fdec92311107f44fa734e835af6">5a97df16c96311107f44fa734e835a4e</sys_update_version>
+        <sys_updated_by>nd71230</sys_updated_by>
+        <sys_updated_on>2022-12-06 07:14:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

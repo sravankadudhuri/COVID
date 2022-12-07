@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>0</auth_code_lifespan>
+        <auth_url/>
+        <certificate_url/>
+        <client_id>c1c56482-a196-45db-ad07-badc876a0995</client_id>
+        <client_secret>dMfRROu09j0grK/NFXZ1lUgyU5CRmI8nO7QYoHiqZb1JtMa/J/1ulnsxpJr4TKMY</client_secret>
+        <client_uuid>ea3788d648a711107f447e624cfae974</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>client_credentials</default_grant_type>
+        <id_token_lifespan>0</id_token_lifespan>
+        <logo_url/>
+        <message_signature_lifespan>0</message_signature_lifespan>
+        <name>Sharepoint</name>
+        <oauth_api_script display_value="OAuthUtilSPJWTOnline">da3f9db4737a301044022ea3c4f6a750</oauth_api_script>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://nowlearning-nlinst00457341-001.lab.service-now.com/oauth_redirect.do</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <restricted_binding>false</restricted_binding>
+        <revoke_token_url/>
+        <salt>0</salt>
+        <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>nd71230</sys_created_by>
+        <sys_created_on>2022-12-05 15:55:11</sys_created_on>
+        <sys_id>6e3788d648a711107f447e624cfae974</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Sharepoint</sys_name>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>oauth_entity_6e3788d648a711107f447e624cfae974</sys_update_name>
+        <sys_updated_by>nd71230</sys_updated_by>
+        <sys_updated_on>2022-12-06 08:54:40</sys_updated_on>
+        <token_url>https://login.microsoftonline.com/95368dbc-98c8-42f3-b47a-69b9112bef41/oauth2/token</token_url>
+        <type>oauth_provider</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <user/>
+    </oauth_entity>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_source">
+    <ais_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_covid_svn_nasa_knowledge">titleISNOTEMPTY^urlISNOTEMPTY<item endquery="false" field="title" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="url" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        </condition>
+        <datasource display_value="">x_snc_covid_svn_nasa_knowledge</datasource>
+        <name>Nasa</name>
+        <sys_class_name>ais_search_source</sys_class_name>
+        <sys_created_by>nd71230</sys_created_by>
+        <sys_created_on>2022-12-03 15:06:27</sys_created_on>
+        <sys_id>828921edc0a711107f44def6ca825075</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Nasa</sys_name>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>ais_search_source_828921edc0a711107f44def6ca825075</sys_update_name>
+        <sys_updated_by>nd71230</sys_updated_by>
+        <sys_updated_on>2022-12-03 15:06:27</sys_updated_on>
+    </ais_search_source>
+</record_update>

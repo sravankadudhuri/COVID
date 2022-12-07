@@ -1,3 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="v_ais_external_search_content" label="Nasa Knowledge" max_length="40" name="x_snc_covid_svn_nasa_knowledge" type="collection"/>
+    <element extends="v_ais_external_search_content" label="Nasa Knowledge" max_length="40" name="x_snc_covid_svn_nasa_knowledge" sizeclass="0" type="collection"/>
 </database>

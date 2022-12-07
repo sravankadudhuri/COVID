@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile">
+    <oauth_entity_profile action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <grant_type>client_credentials</grant_type>
+        <jwt_provider/>
+        <name>Sharepoint default_profile</name>
+        <oauth_entity display_value="Sharepoint">6e3788d648a711107f447e624cfae974</oauth_entity>
+        <sys_class_name>oauth_entity_profile</sys_class_name>
+        <sys_created_by>nd71230</sys_created_by>
+        <sys_created_on>2022-12-05 15:55:11</sys_created_on>
+        <sys_id>8bf7841a48a711107f447e624cfae91f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sharepoint default_profile</sys_name>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>oauth_entity_profile_8bf7841a48a711107f447e624cfae91f</sys_update_name>
+        <sys_updated_by>nd71230</sys_updated_by>
+        <sys_updated_on>2022-12-05 15:55:11</sys_updated_on>
+    </oauth_entity_profile>
+</record_update>
