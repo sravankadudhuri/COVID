@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_knowledge_base" label="Knowledge base" language="en" table="u_imp_tmpl_kb_knowledge">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_knowledge_base</element>
+            <help/>
+            <hint/>
+            <label>Knowledge base</label>
+            <language>en</language>
+            <name>u_imp_tmpl_kb_knowledge</name>
+            <plural>Knowledge bases</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>svnadmin</sys_created_by>
+            <sys_created_on>2023-01-28 18:42:44</sys_created_on>
+            <sys_id>f324baef30a021107f44e28d2c37e661</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Knowledge base</sys_name>
+            <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+            <sys_update_name>sys_documentation_u_imp_tmpl_kb_knowledge_u_knowledge_base_en</sys_update_name>
+            <sys_updated_by>svnadmin</sys_updated_by>
+            <sys_updated_on>2023-01-28 18:42:44</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
