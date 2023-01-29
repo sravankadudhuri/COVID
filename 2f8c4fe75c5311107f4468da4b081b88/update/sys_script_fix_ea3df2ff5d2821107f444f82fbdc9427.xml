@@ -2,7 +2,7 @@
     <sys_script_fix action="INSERT_OR_UPDATE">
         <before>false</before>
         <description/>
-        <name>Fetch MS Content</name>
+        <name>Fetch MS Content and Index</name>
         <record_for_rollback>true</record_for_rollback>
         <script><![CDATA[function getContent(body, urlList) {
     var contentList = [];
@@ -19,16 +19,39 @@
         contentList.push(item);
     }
     return contentList;
+}
 
+function getContentID() {
+    try {
+        var r = new sn_ws.RESTMessageV2('x_snc_covid_svn.Index External Content', 'Store Binary Content');
+        var response = r.execute();
+        var content_id = JSON.parse(response.getBody());
+        return content_id.result;
+    } catch (ex) {
+        var message = ex.message;
+    }
+}
+
+function ingestDoc(cid, ctr, contentObj) {
+    try {
+        var r = new sn_ws.RESTMessageV2('x_snc_covid_svn.Index External Content', 'Ingest Docs');
+        var bdy = '{"document_id":"Msdoc-' + ctr++ + '","content_pointer":"' + cid + '","properties":{"title":"' + contentObj.title + '","url":"' + contentObj.url.replace(/ /ig, '') + '","body":"' + contentObj.description + '"},"principals":{"everyone":true}}';
+        //gs.info(bdy);
+        r.setRequestBody(bdy);
+        var response = r.execute();
+        var responseBody = response.getBody();
+        var httpStatus = response.getStatusCode();
+        gs.info(httpStatus);
+    } catch (ex) {
+        var message = ex.message;
+    }
 }
 
 function getArticles() {
     var urlList = [];
     try {
         var r = new sn_ws.RESTMessageV2('x_snc_covid_svn.Microsoft Docs', 'Get MS Docs');
-        r.setStringParameterNoEscape('term', 'microsoft%20teams');
-
-
+        r.setStringParameterNoEscape('term', "microsoft%20teams");
 
         var response = r.execute();
         var body = response.getBody();
@@ -40,7 +63,9 @@ function getArticles() {
         var content = getContent(body, urlList);
 
         for (var ctr in content) {
-            gs.info(JSON.stringify(content[ctr]));
+            //gs.info(JSON.stringify(content[ctr]));
+            ingestDoc(getContentID(), ctr, content[ctr]);
+
         }
     } catch (ex) {
         var message = ex.message;
@@ -53,14 +78,14 @@ getArticles();]]></script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-29 14:01:25</sys_created_on>
         <sys_id>ea3df2ff5d2821107f444f82fbdc9427</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Fetch MS Content</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Fetch MS Content and Index</sys_name>
         <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
         <sys_policy/>
         <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
         <sys_update_name>sys_script_fix_ea3df2ff5d2821107f444f82fbdc9427</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-29 14:01:25</sys_updated_on>
+        <sys_updated_on>2023-01-29 16:23:31</sys_updated_on>
         <unloadable>false</unloadable>
     </sys_script_fix>
 </record_update>

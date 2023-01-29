@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_ai_search_results_action_config">
+    <sp_ai_search_results_action_config action="INSERT_OR_UPDATE">
+        <action_name display_value="url_navigation">10bf8fb35da821107f444f82fbdc9450</action_name>
+        <active>false</active>
+        <additional_query_parameters/>
+        <ai_search_source display_value="Microsoft Docs">454e3a335d6821107f444f82fbdc9476</ai_search_source>
+        <order>10</order>
+        <payload_field_table>var__m_sys_declarative_action_payload_field_43adc7ff5d6821107f444f82fbdc9422</payload_field_table>
+        <payload_query_parameters/>
+        <portal_page display_value="search">87466b63c3223100c8b837659bba8feb</portal_page>
+        <portals>968157a75cd311107f4468da4b081b23</portals>
+        <short_description>MS Docs Actions</short_description>
+        <sys_class_name>sp_ai_search_results_action_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-29 15:25:07</sys_created_on>
+        <sys_id>9a5013375da821107f444f82fbdc94f0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>MS Docs Actions</sys_name>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>sp_ai_search_results_action_config_9a5013375da821107f444f82fbdc94f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-29 15:26:02</sys_updated_on>
+    </sp_ai_search_results_action_config>
+</record_update>

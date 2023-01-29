@@ -4,28 +4,28 @@
         <auto_refresh>24</auto_refresh>
         <blocked_field/>
         <case_sensitive>false</case_sensitive>
-        <data_source>x_snc_covid_svn_nasa_knowledge,kb_knowledge</data_source>
+        <data_source>x_snc_covid_svn_microsoft_docs,x_snc_covid_svn_nasa_knowledge,kb_knowledge</data_source>
         <derived>true</derived>
         <field/>
         <label>Covid Profile Default Spell Check Dictionary</label>
-        <last_derived>2023-01-28 18:27:30</last_derived>
+        <last_derived>2023-01-29 14:06:11</last_derived>
         <locale>en</locale>
         <name>x_snc_covid_svn_covid_profile_default_spell_check_dictionary</name>
-        <publish_id>a371c830-4689-40d6-b237-ebe8ad117c5c</publish_id>
+        <publish_id>690da306-5e10-4e9c-b894-7df90cfdfbea</publish_id>
         <punctuation_sensitive>false</punctuation_sensitive>
         <state>PUBLISHED</state>
         <sys_class_name>ais_dictionary</sys_class_name>
         <sys_created_by>nd71230</sys_created_by>
         <sys_created_on>2022-11-28 06:01:42</sys_created_on>
         <sys_id>c90d3db3041711107f44e6a269a50ea2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>x_snc_covid_svn_covid_profile_default_spell_check_dictionary</sys_name>
         <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
         <sys_policy/>
         <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
         <sys_update_name>ais_dictionary_c90d3db3041711107f44e6a269a50ea2</sys_update_name>
-        <sys_updated_by>nd71230</sys_updated_by>
-        <sys_updated_on>2022-12-03 15:07:05</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-29 14:06:07</sys_updated_on>
         <type>SPELLCHECK</type>
     </ais_dictionary>
 </record_update>

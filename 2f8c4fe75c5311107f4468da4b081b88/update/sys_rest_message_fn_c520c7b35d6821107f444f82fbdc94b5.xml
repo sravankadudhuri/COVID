@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>{&#13;
+   "document_id":"Msdoc-one",&#13;
+   "content_pointer":"2148fb4c-e713-4455-9d8a-8152647ba6d7?0",&#13;
+   "properties":{&#13;
+      "title":"Get started with Microsoft Teams - Microsoft Support",&#13;
+      "url":"https://support.microsoft.com/en-us/office/get-started-with-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12",&#13;
+      "body":"Microsoft Teams is a collaboration app built for hybrid work so you and your team stay informed, organized, and connected — all in one place. Tip: Get tech expertise with Business Assist. Connect with our small business advisors for help making Microsoft 365 products work for you and everyone in your business."&#13;
+   },&#13;
+   "principals":{&#13;
+      "everyone":true&#13;
+   }&#13;
+}</content>
+        <function_name>Ingest Docs</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Index External Content [ Ingest Docs ]</qualified_name>
+        <rest_endpoint>https://nowlearning-nlinst00553470-001.lab.service-now.com/api/now/v2/ais/external_content/ingestDocument/x_snc_covid_svn_microsoft_docs</rest_endpoint>
+        <rest_message display_value="Index External Content">63fe76735d6821107f444f82fbdc9427</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-29 14:19:45</sys_created_on>
+        <sys_id>c520c7b35d6821107f444f82fbdc94b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ingest Docs</sys_name>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>sys_rest_message_fn_c520c7b35d6821107f444f82fbdc94b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-29 14:19:45</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

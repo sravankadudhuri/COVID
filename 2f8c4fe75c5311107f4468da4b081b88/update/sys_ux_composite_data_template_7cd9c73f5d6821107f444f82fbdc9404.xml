@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template">
+    <sys_ux_composite_data_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Microsoft Doc Search Template</name>
+        <sys_class_name>sys_ux_composite_data_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-29 14:59:26</sys_created_on>
+        <sys_id>7cd9c73f5d6821107f444f82fbdc9404</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Microsoft Doc Search Template</sys_name>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_7cd9c73f5d6821107f444f82fbdc9404</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-29 15:29:06</sys_updated_on>
+        <template>{&#13;
+    "component": "sn-search-result-evam-card",&#13;
+    "staticValues": {&#13;
+        "imageType": {&#13;
+            "translatable": false,&#13;
+            "key": "icon"&#13;
+        },&#13;
+        "icon": {&#13;
+            "translatable": false,&#13;
+            "key": "document-outline"&#13;
+        }&#13;
+    },&#13;
+    "mappings": {&#13;
+        "textHeaderLabelOne": "sys_id", &#13;
+        "textHeaderLabelTwo": "url", &#13;
+        "title": "title",&#13;
+        "summary": "body"&#13;
+        &#13;
+    },&#13;
+    "actionMappings": {&#13;
+        "clickAction": "url_navigation"&#13;
+    }&#13;
+}</template>
+    </sys_ux_composite_data_template>
+</record_update>

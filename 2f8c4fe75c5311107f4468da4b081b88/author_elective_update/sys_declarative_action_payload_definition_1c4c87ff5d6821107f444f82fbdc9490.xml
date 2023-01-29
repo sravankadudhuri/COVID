@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition">
+    <sys_declarative_action_payload_definition action="DELETE">
+        <action_key>Url Navigation</action_key>
+        <applicable_to>035d270073151010c342d5fdbdf6a715</applicable_to>
+        <description/>
+        <label>url_navigation</label>
+        <payload_field_table>var__m_sys_declarative_action_payload_field_1c4c87ff5d6821107f444f82fbdc9490</payload_field_table>
+        <payload_template>{&#13;
+      "url": "{{url}}"&#13;
+}</payload_template>
+        <sys_class_name>sys_declarative_action_payload_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-29 15:07:06</sys_created_on>
+        <sys_id>1c4c87ff5d6821107f444f82fbdc9490</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>url_navigation</sys_name>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_definition_1c4c87ff5d6821107f444f82fbdc9490</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-29 15:10:42</sys_updated_on>
+    </sys_declarative_action_payload_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</application>
+        <file_path/>
+        <instance_id>a5b8c99387aca59c926e411d8bbb355c</instance_id>
+        <instance_name>nowlearning-nlinst00553470-001</instance_name>
+        <name>sys_declarative_action_payload_definition_1c4c87ff5d6821107f444f82fbdc9490</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition"><sys_declarative_action_payload_definition action="INSERT_OR_UPDATE"><action_key>Url Navigation</action_key><applicable_to>035d270073151010c342d5fdbdf6a715</applicable_to><description/><label>url_navigation</label><payload_field_table>var__m_sys_declarative_action_payload_field_1c4c87ff5d6821107f444f82fbdc9490</payload_field_table><payload_template>{&#13;
+      "url": "{{url}}"&#13;
+}</payload_template><sys_class_name>sys_declarative_action_payload_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-29 15:07:06</sys_created_on><sys_id>1c4c87ff5d6821107f444f82fbdc9490</sys_id><sys_mod_count>1</sys_mod_count><sys_name>url_navigation</sys_name><sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package><sys_policy/><sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope><sys_update_name>sys_declarative_action_payload_definition_1c4c87ff5d6821107f444f82fbdc9490</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-29 15:10:42</sys_updated_on></sys_declarative_action_payload_definition></record_update>]]></payload>
+        <payload_hash>343762309</payload_hash>
+        <record_name>url_navigation</record_name>
+        <reverted_from/>
+        <source>562116335da421107f444f82fbdc942d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-29 15:10:42</sys_created_on>
+        <sys_id>233d8bbf5d6821107f444f82fbdc94fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185fe149fd70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-29 15:10:42</sys_updated_on>
+        <type>Action Payload Definition</type>
+        <update_guid>6b3d8bbff76821108ea2d6ffc61141fd</update_guid>
+        <update_guid_history>6b3d8bbff76821108ea2d6ffc61141fd:343762309,b66c8bff7c6821105536b54f095523dc:31548142</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-29 15:12:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_declarative_action_payload_definition">sys_declarative_action_payload_definition</sys_db_object>
+        <sys_id>02532f9e1c7248848d5da32de2f42b59</sys_id>
+        <sys_metadata>1c4c87ff5d6821107f444f82fbdc9490</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>url_navigation</sys_name>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_scope_delete display_value="">9e9197cacf614c88a92e610ccf14b844</sys_scope_delete>
+        <sys_update_name>sys_declarative_action_payload_definition_1c4c87ff5d6821107f444f82fbdc9490</sys_update_name>
+        <sys_update_version display_value="sys_declarative_action_payload_definition_1c4c87ff5d6821107f444f82fbdc9490">233d8bbf5d6821107f444f82fbdc94fe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-29 15:12:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="DELETE">
+        <declarative_action_assignment display_value="navigation">d46f400473211010c342d5fdbdf6a7cf</declarative_action_assignment>
+        <predicate display_value="Microsoft Docs">00394ffb5d6821107f444f82fbdc94d9</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-29 15:01:11</sys_created_on>
+        <sys_id>2d0b43bf5d6821107f444f82fbdc9486</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_2d0b43bf5d6821107f444f82fbdc9486</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-29 15:01:11</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</application>
+        <file_path/>
+        <instance_id>a5b8c99387aca59c926e411d8bbb355c</instance_id>
+        <instance_name>nowlearning-nlinst00553470-001</instance_name>
+        <name>sys_ux_predicate_m2m_action_assignment_2d0b43bf5d6821107f444f82fbdc9486</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment"><sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE"><declarative_action_assignment display_value="navigation">d46f400473211010c342d5fdbdf6a7cf</declarative_action_assignment><predicate display_value="Microsoft Docs">00394ffb5d6821107f444f82fbdc94d9</predicate><sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-29 15:01:11</sys_created_on><sys_id>2d0b43bf5d6821107f444f82fbdc9486</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package><sys_policy/><sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope><sys_update_name>sys_ux_predicate_m2m_action_assignment_2d0b43bf5d6821107f444f82fbdc9486</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-29 15:01:11</sys_updated_on></sys_ux_predicate_m2m_action_assignment></record_update>]]></payload>
+        <payload_hash>142944018</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>562116335da421107f444f82fbdc942d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-29 15:01:11</sys_created_on>
+        <sys_id>881b477f5d6821107f444f82fbdc9446</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185fe0be8920000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-29 15:01:11</sys_updated_on>
+        <type>EVAM View Config Action Assignment M2M</type>
+        <update_guid>c01b477f21682110f9fa92c8114bc746</update_guid>
+        <update_guid_history>c01b477f21682110f9fa92c8114bc746:142944018</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-29 15:18:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_predicate_m2m_action_assignment">sys_ux_predicate_m2m_action_assignment</sys_db_object>
+        <sys_id>8b964c4a5faa4721ba7200cafcb67259</sys_id>
+        <sys_metadata>2d0b43bf5d6821107f444f82fbdc9486</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_scope_delete display_value="">9e9197cacf614c88a92e610ccf14b844</sys_scope_delete>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_2d0b43bf5d6821107f444f82fbdc9486</sys_update_name>
+        <sys_update_version display_value="sys_ux_predicate_m2m_action_assignment_2d0b43bf5d6821107f444f82fbdc9486">881b477f5d6821107f444f82fbdc9446</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-29 15:18:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

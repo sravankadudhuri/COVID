@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auth_profile_basic">
+    <sys_auth_profile_basic action="INSERT_OR_UPDATE">
+        <name>Instance Credentials</name>
+        <password>PpW/qETwLJKWp7ZCjJHIAA==</password>
+        <sys_class_name>sys_auth_profile_basic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-29 14:11:00</sys_created_on>
+        <sys_id>8d8ffe735d6821107f444f82fbdc9449</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Instance Credentials</sys_name>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>sys_auth_profile_basic_8d8ffe735d6821107f444f82fbdc9449</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-29 14:12:07</sys_updated_on>
+        <username>svnadmin</username>
+    </sys_auth_profile_basic>
+</record_update>
