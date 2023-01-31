@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="body" label="Body" language="en" table="x_snc_covid_svn_microsoft_docs">
+    <sys_documentation element="query" label="query" language="en" table="var__m_sys_hub_action_input_2e44533b5da821107f444f82fbdc9435">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>body</element>
+            <element>query</element>
             <help/>
             <hint/>
-            <label>Body</label>
+            <label>query</label>
             <language>en</language>
-            <name>x_snc_covid_svn_microsoft_docs</name>
-            <plural>Bodies</plural>
+            <name>var__m_sys_hub_action_input_2e44533b5da821107f444f82fbdc9435</name>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-01-29 14:03:45</sys_created_on>
-            <sys_id>72ed32335d6821107f444f82fbdc94af</sys_id>
+            <sys_created_on>2023-01-29 15:42:06</sys_created_on>
+            <sys_id>d3649b3b5da821107f444f82fbdc9410</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Body</sys_name>
+            <sys_name>query</sys_name>
             <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
             <sys_policy/>
             <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
-            <sys_update_name>sys_documentation_x_snc_covid_svn_microsoft_docs_body_en</sys_update_name>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2e44533b5da821107f444f82fbdc9435_query_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-01-29 14:03:45</sys_updated_on>
+            <sys_updated_on>2023-01-29 15:42:06</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

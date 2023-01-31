@@ -44,7 +44,7 @@
         <update_guid_history>566a477f7268211074bd811e7c3692af:-2049967837</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_snc_covid_svn_microsoft_docs.title">289b47bf5d6821107f444f82fbdc940d</sys_audit_delete>
+        <sys_audit_delete display_value="">289b47bf5d6821107f444f82fbdc940d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-29 15:03:24</sys_created_on>

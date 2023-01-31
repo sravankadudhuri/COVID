@@ -201,18 +201,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=5dc5977b5da821107f444f82fbdc94a0"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>5dc5977b5da821107f444f82fbdc94a0</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-01-29 15:47:58</sys_created_on>
-        <sys_id>ddc513bb5da821107f444f82fbdc9407</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-29 15:47:58</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>query</field>
         <id>5dc5977b5da821107f444f82fbdc94a0</id>
         <sys_created_by>admin</sys_created_by>
@@ -223,18 +211,6 @@
         <sys_updated_on>2023-01-29 15:47:58</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_5dc5977b5da821107f444f82fbdc94a0</table>
         <value>{{action.query}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>5dc5977b5da821107f444f82fbdc94a0</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-01-29 15:47:58</sys_created_on>
-        <sys_id>19c513bb5da821107f444f82fbdc9408</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-29 15:47:58</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=5dc5977b5da821107f444f82fbdc94a0"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=5dc5977b5da821107f444f82fbdc94a0^sys_idNOT IN9dc5df7b5da821107f444f82fbdc94fd"/>
@@ -602,11 +578,11 @@
         <sys_created_on>2023-01-29 15:42:06</sys_created_on>
         <sys_id>d3649b3b5da821107f444f82fbdc9410</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>query</sys_name>
         <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
         <sys_policy/>
         <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2e44533b5da821107f444f82fbdc9435_query_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-01-29 15:42:06</sys_updated_on>
         <url/>
@@ -627,11 +603,11 @@
         <sys_created_on>2023-01-29 15:47:58</sys_created_on>
         <sys_id>61c513bb5da821107f444f82fbdc941c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
         <sys_policy/>
         <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2e44533b5da821107f444f82fbdc9435___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-01-29 15:47:58</sys_updated_on>
         <url/>
@@ -650,11 +626,11 @@
         <sys_created_on>2023-01-29 15:47:58</sys_created_on>
         <sys_id>d5c513bb5da821107f444f82fbdc9414</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
         <sys_policy/>
         <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2e44533b5da821107f444f82fbdc9435___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-01-29 15:47:58</sys_updated_on>
         <url/>

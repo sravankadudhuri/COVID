@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
     <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
         <declarative_action_assignment display_value="url_navigation">10bf8fb35da821107f444f82fbdc9450</declarative_action_assignment>
-        <predicate display_value="Microsoft Docs">00394ffb5d6821107f444f82fbdc94d9</predicate>
+        <predicate/>
         <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-29 15:22:20</sys_created_on>

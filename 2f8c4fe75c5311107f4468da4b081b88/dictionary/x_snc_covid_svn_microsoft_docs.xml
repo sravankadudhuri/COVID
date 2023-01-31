@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="v_ais_external_search_content" label="Microsoft Docs" max_length="40" name="x_snc_covid_svn_microsoft_docs" type="collection">
-        <element label="Body" max_length="100000" name="body" type="string"/>
-    </element>
-</database>

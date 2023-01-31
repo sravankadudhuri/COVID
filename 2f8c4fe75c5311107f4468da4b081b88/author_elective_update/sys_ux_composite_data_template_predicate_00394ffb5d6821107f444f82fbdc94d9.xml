@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="DELETE">
+        <active>true</active>
+        <condition/>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>body,title,url</field_list>
+        <name>Microsoft Docs</name>
+        <order>100</order>
+        <predicate_bundle display_value="Covid Search Bundle">dd8efd3b045711107f44e6a269a50ec9</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-29 14:54:10</sys_created_on>
+        <sys_id>00394ffb5d6821107f444f82fbdc94d9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Microsoft Docs</sys_name>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_00394ffb5d6821107f444f82fbdc94d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-29 15:00:31</sys_updated_on>
+        <table>x_snc_covid_svn_microsoft_docs</table>
+        <ux_template display_value="Microsoft Doc Search Template">7cd9c73f5d6821107f444f82fbdc9404</ux_template>
+    </sys_ux_composite_data_template_predicate>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</application>
+        <file_path/>
+        <instance_id>548c689097f4e1d084bbf9f11153af6d</instance_id>
+        <instance_name>nowlearning-nlinst00556918-001</instance_name>
+        <name>sys_ux_composite_data_template_predicate_00394ffb5d6821107f444f82fbdc94d9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>body,title,url</field_list>
+        <name>Microsoft Docs</name>
+        <order>100</order>
+        <predicate_bundle display_value="Covid Search Bundle">dd8efd3b045711107f44e6a269a50ec9</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-29 14:54:10</sys_created_on>
+        <sys_id>00394ffb5d6821107f444f82fbdc94d9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Microsoft Docs</sys_name>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_00394ffb5d6821107f444f82fbdc94d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-29 15:00:31</sys_updated_on>
+        <table>x_snc_covid_svn_microsoft_docs</table>
+        <ux_template display_value="Microsoft Doc Search Template">7cd9c73f5d6821107f444f82fbdc9404</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>]]></payload>
+        <payload_hash>1329113220</payload_hash>
+        <record_name>Microsoft Docs</record_name>
+        <reverted_from/>
+        <source>34e47f1c153021107f446422a812425c</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-31 07:21:13</sys_created_on>
+        <sys_id>b9f4b75c153021107f446422a8124206</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18606b382fb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-31 07:21:13</sys_updated_on>
+        <type>EVAM View Config</type>
+        <update_guid>79f4b75c9430211097a2c90bc64a0c06</update_guid>
+        <update_guid_history>79f4b75c9430211097a2c90bc64a0c06:1329113220</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-31 07:25:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_composite_data_template_predicate">sys_ux_composite_data_template_predicate</sys_db_object>
+        <sys_id>0317666ee166433c810b4b7464a0a431</sys_id>
+        <sys_metadata>00394ffb5d6821107f444f82fbdc94d9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Microsoft Docs</sys_name>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_scope_delete display_value="">9e9197cacf614c88a92e610ccf14b844</sys_scope_delete>
+        <sys_update_name>sys_ux_composite_data_template_predicate_00394ffb5d6821107f444f82fbdc94d9</sys_update_name>
+        <sys_update_version display_value="sys_ux_composite_data_template_predicate_00394ffb5d6821107f444f82fbdc94d9">b9f4b75c153021107f446422a8124206</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-31 07:25:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

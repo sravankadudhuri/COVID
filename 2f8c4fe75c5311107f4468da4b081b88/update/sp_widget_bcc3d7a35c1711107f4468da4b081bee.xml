@@ -35,16 +35,16 @@ text-align: center;&#13;
         <sys_created_by>nd71230</sys_created_by>
         <sys_created_on>2022-11-27 17:42:13</sys_created_on>
         <sys_id>bcc3d7a35c1711107f4468da4b081bee</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Covid Home</sys_name>
         <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
         <sys_policy/>
         <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
         <sys_update_name>sp_widget_bcc3d7a35c1711107f4468da4b081bee</sys_update_name>
-        <sys_updated_by>nd71230</sys_updated_by>
-        <sys_updated_on>2022-11-28 05:18:51</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-31 07:36:30</sys_updated_on>
         <template><![CDATA[<div>
-<h1>{{c.message}}</h1>
+<h1></h1>
 </div>]]></template>
     </sp_widget>
 </record_update>

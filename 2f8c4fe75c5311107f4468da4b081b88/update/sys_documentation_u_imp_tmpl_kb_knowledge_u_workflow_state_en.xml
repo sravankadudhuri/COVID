@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="Microsoft Docs" language="en" table="x_snc_covid_svn_microsoft_docs">
+    <sys_documentation element="u_workflow_state" label="workflow_state" language="en" table="u_imp_tmpl_kb_knowledge">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element/>
+            <element>u_workflow_state</element>
             <help/>
             <hint/>
-            <label>Microsoft Docs</label>
+            <label>workflow_state</label>
             <language>en</language>
-            <name>x_snc_covid_svn_microsoft_docs</name>
-            <plural>Microsoft Docs</plural>
+            <name>u_imp_tmpl_kb_knowledge</name>
+            <plural>workflow_states</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-01-29 14:03:07</sys_created_on>
-            <sys_id>2dcd3eff5d2821107f444f82fbdc94b7</sys_id>
+            <sys_created_on>2023-01-31 07:32:31</sys_created_on>
+            <sys_id>9387ff98157021107f446422a8124287</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Microsoft Docs</sys_name>
+            <sys_name>workflow_state</sys_name>
             <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
             <sys_policy/>
             <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
-            <sys_update_name>sys_documentation_x_snc_covid_svn_microsoft_docs__en</sys_update_name>
+            <sys_update_name>sys_documentation_u_imp_tmpl_kb_knowledge_u_workflow_state_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-01-29 14:03:07</sys_updated_on>
+            <sys_updated_on>2023-01-31 07:32:31</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
