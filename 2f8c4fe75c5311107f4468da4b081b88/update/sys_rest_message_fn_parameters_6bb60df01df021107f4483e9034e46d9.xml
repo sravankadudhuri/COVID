@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>document_id</name>
+        <rest_message_function display_value="Delete Document">f36609f01df021107f4483e9034e465f</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-01 07:56:59</sys_created_on>
+        <sys_id>6bb60df01df021107f4483e9034e46d9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>document_id</sys_name>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_6bb60df01df021107f4483e9034e46d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-01 08:29:02</sys_updated_on>
+        <type>string</type>
+        <value>Msdoc-0</value>
+    </sys_rest_message_fn_parameters>
+</record_update>

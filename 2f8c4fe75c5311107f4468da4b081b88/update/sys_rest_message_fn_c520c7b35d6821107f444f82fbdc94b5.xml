@@ -22,20 +22,20 @@
         <oauth2_profile/>
         <protocol_name/>
         <qualified_name>Index External Content [ Ingest Docs ]</qualified_name>
-        <rest_endpoint>https://nowlearning-nlinst00553470-001.lab.service-now.com/api/now/v2/ais/external_content/ingestDocument/x_snc_covid_svn_microsoft_docs</rest_endpoint>
+        <rest_endpoint>https://nowlearning-nlinst00556918-001.lab.service-now.com/api/now/v2/ais/external_content/ingestDocument/x_snc_covid_svn_microsoft_docs</rest_endpoint>
         <rest_message display_value="Index External Content">63fe76735d6821107f444f82fbdc9427</rest_message>
         <sys_class_name>sys_rest_message_fn</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-29 14:19:45</sys_created_on>
         <sys_id>c520c7b35d6821107f444f82fbdc94b5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Ingest Docs</sys_name>
         <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
         <sys_policy/>
         <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
         <sys_update_name>sys_rest_message_fn_c520c7b35d6821107f444f82fbdc94b5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-29 14:19:45</sys_updated_on>
+        <sys_updated_on>2023-02-01 08:49:49</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mid_server/>
         <use_mutual_auth>false</use_mutual_auth>

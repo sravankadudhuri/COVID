@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_designer_co_template">
+    <sys_hub_flow_designer_co_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <complex_definition>FD9b923c280fb42110d25ce4d17c4b30b2</complex_definition>
+        <sys_class_name>sys_hub_flow_designer_co_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-31 11:50:34</sys_created_on>
+        <sys_id>1f923c2815b421107f446422a81242b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Contents﻿</sys_name>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>sys_hub_flow_designer_co_template_1f923c2815b421107f446422a81242b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-31 11:50:34</sys_updated_on>
+        <template_label>Contents﻿</template_label>
+        <template_name>contents</template_name>
+    </sys_hub_flow_designer_co_template>
+</record_update>

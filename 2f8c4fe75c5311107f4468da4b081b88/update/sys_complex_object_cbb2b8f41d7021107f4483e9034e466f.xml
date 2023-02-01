@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD0bb2b8f421702110dfd460cfeea8546f</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>2f8c4fe75c5311107f4468da4b081b88</scope_name>
+        <serialized_content>{"FlowDesigner:FD0bb2b8f421702110dfd460cfeea8546f":{"$COCollectionField":[{"document":{"body":"String","body.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Body\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"23cb84db-097f-4ec4-aa88-62d9fab5fa35\"}"},"title":"String","title.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Title\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"bb82fa6b-0e31-451c-bfd8-b4aa0afd2a94\"}"},"url":"String","url.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"URL\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"db2dcd15-fff6-4f77-b3e2-1505f0bc5798\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"89b86dc6-d6a5-4a51-bc5f-cce7a6fe6a2c\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Documents\",\"mandatory\":\"false\",\"child_name\":\"document\",\"uiUniqueId\":\"f6314acd-ac5d-45cd-96dc-c28397402cea\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD0bb2b8f421702110dfd460cfeea8546f\",\"child_label\":\"Document\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"46a07e6c-5fb1-4d42-bedf-c836f40270ae\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"cc0d8ad7-cc8d-4e69-a70d-49fdc37b9081\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD0bb2b8f421702110dfd460cfeea8546f.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"89b86dc6-d6a5-4a51-bc5f-cce7a6fe6a2c\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Documents\",\"mandatory\":\"false\",\"child_name\":\"document\",\"uiUniqueId\":\"f6314acd-ac5d-45cd-96dc-c28397402cea\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD0bb2b8f421702110dfd460cfeea8546f\",\"child_label\":\"Document\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"46a07e6c-5fb1-4d42-bedf-c836f40270ae\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"cc0d8ad7-cc8d-4e69-a70d-49fdc37b9081\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-01 06:29:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cbb2b8f41d7021107f4483e9034e466f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD0bb2b8f421702110dfd460cfeea8546f</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>sys_complex_object_cbb2b8f41d7021107f4483e9034e466f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-01 06:29:35</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

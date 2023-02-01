@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_covid_svn.IngestExternalContent</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>IngestExternalContent</name>
+        <script><![CDATA[var IngestExternalContent = Class.create();
+IngestExternalContent.prototype = {
+	initialize: function() {
+		this.ctr = gs.getProperty("x_snc_covid_svn.search_term.counter");
+		this.status = {};
+	},
+	getContentID : function()
+	{
+		try {
+			var r = new sn_ws.RESTMessageV2('x_snc_covid_svn.Index External Content', 'Store Binary Content');
+			var response = r.execute();
+			var responseBody = response.getBody();
+			var httpStatus = response.getStatusCode();
+
+			if(httpStatus == "200")
+			{
+				this.status.code = httpStatus;
+				this.status.body = JSON.parse(responseBody).result;
+			}
+			else
+			{
+				this.status.code = httpStatus;
+				this.status.body = responseBody;
+			}
+			return this.status;
+		} catch (ex) {
+			var message = ex.message;
+		}
+	},
+
+	ingestDocument: function(cid,payload)
+	{
+		try {
+			var r = new sn_ws.RESTMessageV2('x_snc_covid_svn.Index External Content', 'Ingest Docs');
+			var bdy = '{"document_id":"externalDoc-' + this.ctr++ + '","content_pointer":"' + cid + '","properties":{"title":"' + payload.title + '","url":"' + payload.url.replace(/ /ig, '') + '","body":"' + payload.body + '"},"principals":{"everyone":true}}';
+			//gs.info(bdy);
+			r.setRequestBody(bdy);
+			var response = r.execute();
+			var responseBody = response.getBody();
+			var httpStatus = response.getStatusCode();
+			if(httpStatus == "200")
+			{
+				this.status.code = httpStatus;
+				this.status.body = responseBody;
+			}
+			else
+			{
+				this.status.code = httpStatus;
+				this.status.body = responseBody;
+			}
+			gs.setProperty("x_snc_covid_svn.search_term.counter",this.ctr);
+			return this.status;
+		} catch (ex) {
+			var message = ex.message;
+		}
+	},
+
+	type: 'IngestExternalContent'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-31 10:35:00</sys_created_on>
+        <sys_id>2320e824157421107f446422a81242c3</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>IngestExternalContent</sys_name>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>sys_script_include_2320e824157421107f446422a81242c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-01 16:41:29</sys_updated_on>
+    </sys_script_include>
+</record_update>

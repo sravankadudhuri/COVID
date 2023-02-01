@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Imp Tmpl Kb Knowledge" max_length="40" name="u_imp_tmpl_kb_knowledge" type="collection">
+    <element extends="sys_import_set_row" label="Imp Tmpl Kb Knowledge" max_length="40" name="u_imp_tmpl_kb_knowledge" sizeclass="16" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Article body" label="Article body" max_length="65000" name="u_article_body" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Knowledge base" label="Knowledge base" max_length="32" name="u_knowledge_base" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Short description" label="Short description" max_length="100" name="u_short_description" type="string"/>
