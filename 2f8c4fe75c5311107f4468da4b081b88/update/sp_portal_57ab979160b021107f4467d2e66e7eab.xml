@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <css_variables/>
+        <default>false</default>
+        <enable_ais>true</enable_ais>
+        <enable_favorites>false</enable_favorites>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage/>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page/>
+        <logo/>
+        <notfound_page/>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <search_application display_value="Service Portal Default Search Application">00731b9d5b231010d9a5ce1a8581c7dd</search_application>
+        <search_results_configuration/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>svnadminone</sys_created_by>
+        <sys_created_on>2023-02-03 08:05:21</sys_created_on>
+        <sys_id>57ab979160b021107f4467d2e66e7eab</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Home</sys_name>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>sp_portal_57ab979160b021107f4467d2e66e7eab</sys_update_name>
+        <sys_updated_by>svnadminone</sys_updated_by>
+        <sys_updated_on>2023-02-03 08:06:47</sys_updated_on>
+        <theme/>
+        <title>Home</title>
+        <ts_index_group/>
+        <url_suffix>home</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=57ab979160b021107f4467d2e66e7eab"/>
+</record_update>
