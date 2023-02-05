@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_covid_svn.AISSpokeUtilCustom</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Util Method for ais spoke</description>
+        <name>AISSpokeUtilCustom</name>
+        <script><![CDATA[var AISSpokeUtilCustom = Class.create();
+AISSpokeUtilCustom.prototype = {
+    initialize: function() {
+    },	
+	isJson : function(json) {
+        try {
+            var str = json.toString();
+            JSON.parse(str);
+            return true;
+        } catch (e) {
+            return false;
+        }
+	},
+    isNumber : function(size) {
+        var number = parseInt(size);
+
+        if (number) {
+            return true;
+        } else {
+            return false;
+        }
+    },
+    type: 'AISSpokeUtilCustom'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>svnadmin</sys_created_by>
+        <sys_created_on>2023-02-04 12:13:15</sys_created_on>
+        <sys_id>fe2ed57d19b821107f44b9d408ae0bf8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>AISSpokeUtilCustom</sys_name>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>sys_script_include_fe2ed57d19b821107f44b9d408ae0bf8</sys_update_name>
+        <sys_updated_by>svnadmin</sys_updated_by>
+        <sys_updated_on>2023-02-04 12:13:27</sys_updated_on>
+    </sys_script_include>
+</record_update>

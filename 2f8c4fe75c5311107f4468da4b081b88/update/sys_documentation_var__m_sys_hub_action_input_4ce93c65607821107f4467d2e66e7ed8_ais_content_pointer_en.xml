@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="ais_content_pointer" label="AIS Content Pointer" language="en" table="var__m_sys_hub_action_input_4ce93c65607821107f4467d2e66e7ed8">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ais_content_pointer</element>
+            <help/>
+            <hint/>
+            <label>AIS Content Pointer</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_4ce93c65607821107f4467d2e66e7ed8</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>svnadminone</sys_created_by>
+            <sys_created_on>2023-02-03 14:56:13</sys_created_on>
+            <sys_id>84e97c65607821107f4467d2e66e7e43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>AIS Content Pointer</sys_name>
+            <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_4ce93c65607821107f4467d2e66e7ed8_ais_content_pointer_en</sys_update_name>
+            <sys_updated_by>svnadminone</sys_updated_by>
+            <sys_updated_on>2023-02-03 14:56:13</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

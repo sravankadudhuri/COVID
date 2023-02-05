@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>svntest</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Svntest</name>
+        <natlang/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>svnadmin</sys_created_by>
+        <sys_created_on>2023-02-04 14:54:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b2f2423d197861107f44b9d408ae0b43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Svntest</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_b2f2423d197861107f44b9d408ae0b43</sys_update_name>
+        <sys_updated_by>svnadmin</sys_updated_by>
+        <sys_updated_on>2023-02-04 14:54:06</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=b2f2423d197861107f44b9d408ae0b43"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b2f2423d197861107f44b9d408ae0b43"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=b2f2423d197861107f44b9d408ae0b43"/>
+    <sys_hub_action_input action="delete_multiple" query="model=b2f2423d197861107f44b9d408ae0b43"/>
+    <sys_hub_action_output action="delete_multiple" query="model=b2f2423d197861107f44b9d408ae0b43"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=b2f2423d197861107f44b9d408ae0b43"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=b2f2423d197861107f44b9d408ae0b43"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_b2f2423d197861107f44b9d408ae0b43"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_b2f2423d197861107f44b9d408ae0b43"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_b2f2423d197861107f44b9d408ae0b43"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_b2f2423d197861107f44b9d408ae0b43"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=b2f2423d197861107f44b9d408ae0b43"/>
+</record_update>

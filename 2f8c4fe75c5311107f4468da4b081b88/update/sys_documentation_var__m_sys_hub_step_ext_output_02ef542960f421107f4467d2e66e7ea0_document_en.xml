@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="document" label="Document" language="en" table="var__m_sys_hub_step_ext_output_02ef542960f421107f4467d2e66e7ea0">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>document</element>
+            <help/>
+            <hint/>
+            <label>Document</label>
+            <language>en</language>
+            <name>var__m_sys_hub_step_ext_output_02ef542960f421107f4467d2e66e7ea0</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>svnadmin</sys_created_by>
+            <sys_created_on>2023-02-04 12:17:09</sys_created_on>
+            <sys_id>fb0fdd3519f821107f44b9d408ae0b6e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Document</sys_name>
+            <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_02ef542960f421107f4467d2e66e7ea0_document_en</sys_update_name>
+            <sys_updated_by>svnadmin</sys_updated_by>
+            <sys_updated_on>2023-02-04 12:17:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

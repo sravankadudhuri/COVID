@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="error_message" table="var__m_sys_hub_action_output_4ce93c65607821107f4467d2e66e7ed8" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>error_message</element>
+            <name>var__m_sys_hub_action_output_4ce93c65607821107f4467d2e66e7ed8</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>svnadmin</sys_created_by>
+            <sys_created_on>2023-02-05 13:24:44</sys_created_on>
+            <sys_id>6318364e313021107f44aeeea86862bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>error_message</sys_name>
+            <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_hub_action_output_4ce93c65607821107f4467d2e66e7ed8_error_message</sys_update_name>
+            <sys_updated_by>svnadmin</sys_updated_by>
+            <sys_updated_on>2023-02-05 13:24:44</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>error_message</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Invalid external content table</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_4ce93c65607821107f4467d2e66e7ed8</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>svnadminone</sys_created_by>
+            <sys_created_on>2023-02-03 14:56:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2ce97c65607821107f4467d2e66e7e99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>svnadminone</sys_updated_by>
+            <sys_updated_on>2023-02-03 14:56:14</sys_updated_on>
+            <value>Invalid external content table.</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>error_message</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Invalid Document ID</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_4ce93c65607821107f4467d2e66e7ed8</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>svnadminone</sys_created_by>
+            <sys_created_on>2023-02-03 14:56:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e0e97c65607821107f4467d2e66e7e9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>svnadminone</sys_updated_by>
+            <sys_updated_on>2023-02-03 14:56:14</sys_updated_on>
+            <value>Invalid Document ID.</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>error_message</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Invalid Batcher ID</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_4ce93c65607821107f4467d2e66e7ed8</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>svnadminone</sys_created_by>
+            <sys_created_on>2023-02-03 14:56:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a8e97c65607821107f4467d2e66e7e9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>svnadminone</sys_updated_by>
+            <sys_updated_on>2023-02-03 14:56:14</sys_updated_on>
+            <value>Invalid Batcher ID.</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>error_message</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Invalid properties</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_4ce93c65607821107f4467d2e66e7ed8</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>svnadminone</sys_created_by>
+            <sys_created_on>2023-02-03 14:56:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>60e97c65607821107f4467d2e66e7e9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>svnadminone</sys_updated_by>
+            <sys_updated_on>2023-02-03 14:56:14</sys_updated_on>
+            <value>Invalid properties.</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>error_message</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Invalid principals</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_4ce93c65607821107f4467d2e66e7ed8</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>svnadminone</sys_created_by>
+            <sys_created_on>2023-02-03 14:56:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28e97c65607821107f4467d2e66e7e9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>svnadminone</sys_updated_by>
+            <sys_updated_on>2023-02-03 14:56:14</sys_updated_on>
+            <value>Invalid principals.</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>error_message</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Error occurred while ingesting properties into the batcher</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_4ce93c65607821107f4467d2e66e7ed8</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>svnadminone</sys_created_by>
+            <sys_created_on>2023-02-03 14:56:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ece97c65607821107f4467d2e66e7e9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>svnadminone</sys_updated_by>
+            <sys_updated_on>2023-02-03 14:56:14</sys_updated_on>
+            <value>Error occurred while ingesting properties into the batcher.</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>error_message</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other error</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_4ce93c65607821107f4467d2e66e7ed8</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>svnadminone</sys_created_by>
+            <sys_created_on>2023-02-03 14:56:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a4e97c65607821107f4467d2e66e7e9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>svnadminone</sys_updated_by>
+            <sys_updated_on>2023-02-03 14:56:14</sys_updated_on>
+            <value>Encountered an error. Check log for more details.</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
     <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
         <name>query</name>
-        <rest_message_function display_value="Delete Docs By Query">fa7a05381df021107f4483e9034e469d</rest_message_function>
+        <rest_message_function display_value="Get Docs">5797e6711978a1107f44b9d408ae0be9</rest_message_function>
         <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-02-01 08:15:13</sys_created_on>
-        <sys_id>e6eac1f41df021107f4483e9034e46df</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_created_by>svnadmin</sys_created_by>
+        <sys_created_on>2023-02-04 17:51:43</sys_created_on>
+        <sys_id>64abaaf919b8a1107f44b9d408ae0b86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>query</sys_name>
         <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
         <sys_policy/>
         <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
-        <sys_update_name>sys_rest_message_fn_parameters_e6eac1f41df021107f4483e9034e46df</sys_update_name>
+        <sys_update_name>sys_rest_message_fn_parameters_64abaaf919b8a1107f44b9d408ae0b86</sys_update_name>
         <sys_updated_by>svnadmin</sys_updated_by>
-        <sys_updated_on>2023-02-04 16:32:46</sys_updated_on>
+        <sys_updated_on>2023-02-04 17:51:43</sys_updated_on>
         <type>string</type>
-        <value>title%3Dteams</value>
+        <value/>
     </sys_rest_message_fn_parameters>
 </record_update>
