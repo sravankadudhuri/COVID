@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
     <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
-        <dependency display_value="External Content for AI Search" source="com.glide.ais.external_content">c1577b58157021107f446422a8124212</dependency>
+        <dependency display_value="">c1577b58157021107f446422a8124212</dependency>
         <min_version>1.0.0</min_version>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-31 08:35:55</sys_created_on>

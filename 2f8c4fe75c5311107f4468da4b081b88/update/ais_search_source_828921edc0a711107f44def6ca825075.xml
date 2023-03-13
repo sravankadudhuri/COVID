@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_source">
     <ais_search_source action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_snc_covid_svn_nasa_knowledge">titleISNOTEMPTY^urlISNOTEMPTY<item endquery="false" field="title" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
-            <item endquery="false" field="url" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
-        </condition>
+        <condition table="x_snc_covid_svn_nasa_knowledge">titleISNOTEMPTY^urlISNOTEMPTY</condition>
         <datasource display_value="">x_snc_covid_svn_nasa_knowledge</datasource>
         <name>Nasa</name>
         <sys_class_name>ais_search_source</sys_class_name>

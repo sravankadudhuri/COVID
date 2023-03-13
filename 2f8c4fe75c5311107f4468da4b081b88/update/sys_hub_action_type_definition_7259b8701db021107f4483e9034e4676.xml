@@ -347,11 +347,11 @@
         <sys_created_on>2023-02-01 07:07:38</sys_created_on>
         <sys_id>ec7bb0741db021107f4483e9034e4647</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
         <sys_policy/>
         <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_e47bb0741db021107f4483e9034e4618_sn_auth_token_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-02-01 07:07:38</sys_updated_on>
         <url/>
@@ -557,11 +557,11 @@
         <sys_created_on>2023-02-01 07:15:43</sys_created_on>
         <sys_id>364d34f41db021107f4483e9034e46ae</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
         <sys_policy/>
         <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_7259b8701db021107f4483e9034e4676___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-02-01 07:15:43</sys_updated_on>
         <url/>
@@ -580,11 +580,11 @@
         <sys_created_on>2023-02-01 07:15:43</sys_created_on>
         <sys_id>ba4d34f41db021107f4483e9034e46a6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
         <sys_policy/>
         <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_7259b8701db021107f4483e9034e4676___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-02-01 07:15:43</sys_updated_on>
         <url/>

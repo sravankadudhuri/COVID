@@ -18,19 +18,19 @@
         <provider_class>com.glide.ais.configuration.externalcontent.AisBackedVTable</provider_class>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="AI Search External Search Content" name="v_ais_external_search_content">24e4fb1c153021107f446422a81242e3</super_class>
+        <super_class display_value="label" name="v_ais_external_search_content">5e792e25f92121107f44b45e52468ee3</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
         <sys_created_by>nd71230</sys_created_by>
         <sys_created_on>2022-12-03 14:53:25</sys_created_on>
-        <sys_id>a0e4fb1c153021107f446422a81242e5</sys_id>
+        <sys_id>1e792e25f92121107f44b45e52468ee5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Nasa Knowledge</sys_name>
         <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
         <sys_policy/>
         <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
-        <sys_update_name>sys_db_object_a0e4fb1c153021107f446422a81242e5</sys_update_name>
+        <sys_update_name>sys_db_object_1e792e25f92121107f44b45e52468ee5</sys_update_name>
         <sys_updated_by>nd71230</sys_updated_by>
         <sys_updated_on>2022-12-03 14:53:25</sys_updated_on>
         <update_access>false</update_access>

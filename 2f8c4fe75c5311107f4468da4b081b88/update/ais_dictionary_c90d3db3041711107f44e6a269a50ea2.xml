@@ -8,10 +8,10 @@
         <derived>true</derived>
         <field/>
         <label>Covid Profile Default Spell Check Dictionary</label>
-        <last_derived>2023-02-01 08:26:57</last_derived>
+        <last_derived>2023-03-13 05:59:57</last_derived>
         <locale>en</locale>
         <name>x_snc_covid_svn_covid_profile_default_spell_check_dictionary</name>
-        <publish_id>fc917fe0-b576-4bee-9e57-fedc62a180cd</publish_id>
+        <publish_id>4dcd9382-9628-4b90-893c-7e0c349bf280</publish_id>
         <punctuation_sensitive>false</punctuation_sensitive>
         <state>PUBLISHED</state>
         <sys_class_name>ais_dictionary</sys_class_name>

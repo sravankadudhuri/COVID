@@ -4,22 +4,22 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_snc_covid_svn_microsoft_docs</name>
+        <name>u_imp_tmpl_kb_knowledge</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-01-31 08:35:55</sys_created_on>
-        <sys_id>5816c06815f021107f446422a8124240</sys_id>
+        <sys_created_by>svnadmin</sys_created_by>
+        <sys_created_on>2023-01-28 18:42:46</sys_created_on>
+        <sys_id>9a792e25f92121107f44b45e52468ee1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_snc_covid_svn_microsoft_docs</sys_name>
+        <sys_name>u_imp_tmpl_kb_knowledge</sys_name>
         <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
         <sys_policy/>
         <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
-        <sys_update_name>ua_table_licensing_config_5816c06815f021107f446422a8124240</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-31 08:35:55</sys_updated_on>
+        <sys_update_name>ua_table_licensing_config_9a792e25f92121107f44b45e52468ee1</sys_update_name>
+        <sys_updated_by>svnadmin</sys_updated_by>
+        <sys_updated_on>2023-01-28 18:42:46</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>

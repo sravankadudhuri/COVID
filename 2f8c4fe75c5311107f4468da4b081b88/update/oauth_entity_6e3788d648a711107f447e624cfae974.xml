@@ -16,7 +16,7 @@
         <logo_url/>
         <message_signature_lifespan>0</message_signature_lifespan>
         <name>Sharepoint</name>
-        <oauth_api_script display_value="OAuthUtilSPOnline">956493cc13dca78056193192e144b043</oauth_api_script>
+        <oauth_api_script display_value="">956493cc13dca78056193192e144b043</oauth_api_script>
         <protocol_name/>
         <public_client>false</public_client>
         <redirect_url>https://nowlearning-nlinst00457341-001.lab.service-now.com/oauth_redirect.do</redirect_url>

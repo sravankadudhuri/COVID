@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_source">
     <ais_search_source action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="kb_knowledge">kb_knowledge_base=9ec6fbd4157021107f446422a8124217<item display_table="kb_knowledge_base" display_value="Covid" endquery="false" field="kb_knowledge_base" goto="false" newquery="false" operator="=" or="false" value="9ec6fbd4157021107f446422a8124217"/>
+        <condition table="kb_knowledge">kb_knowledge_base=9ec6fbd4157021107f446422a8124217<item endquery="false" field="kb_knowledge_base" goto="false" newquery="false" operator="=" or="false" value="9ec6fbd4157021107f446422a8124217"/>
         </condition>
         <datasource display_value="">kb_knowledge</datasource>
         <name>Covid Knowledge Articles</name>

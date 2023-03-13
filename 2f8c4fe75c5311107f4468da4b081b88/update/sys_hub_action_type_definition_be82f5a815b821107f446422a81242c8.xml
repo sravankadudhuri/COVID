@@ -194,30 +194,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=dca3f12c15b821107f446422a8124217"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>dca3f12c15b821107f446422a8124217</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-01-31 16:34:38</sys_created_on>
-        <sys_id>eca3f12c15b821107f446422a812423b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-31 16:34:38</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>dca3f12c15b821107f446422a8124217</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-01-31 16:34:38</sys_created_on>
-        <sys_id>28a3f12c15b821107f446422a812423c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-31 16:34:38</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>term</field>
         <id>dca3f12c15b821107f446422a8124217</id>
         <sys_created_by>admin</sys_created_by>
@@ -410,11 +386,11 @@
         <sys_created_on>2023-01-31 16:34:37</sys_created_on>
         <sys_id>eca3f12c15b821107f446422a8124237</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Documents</sys_name>
         <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
         <sys_policy/>
         <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_dca3f12c15b821107f446422a8124217_documents_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-01-31 16:34:37</sys_updated_on>
         <url/>
@@ -785,11 +761,11 @@
         <sys_created_on>2023-01-31 16:34:37</sys_created_on>
         <sys_id>94a3f12c15b821107f446422a8124215</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Term</sys_name>
         <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
         <sys_policy/>
         <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_be82f5a815b821107f446422a81242c8_term_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-01-31 16:34:37</sys_updated_on>
         <url/>
@@ -810,11 +786,11 @@
         <sys_created_on>2023-01-31 16:36:12</sys_created_on>
         <sys_id>13f3392c15b821107f446422a81242db</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
         <sys_policy/>
         <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_be82f5a815b821107f446422a81242c8___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-01-31 16:36:12</sys_updated_on>
         <url/>
@@ -833,11 +809,11 @@
         <sys_created_on>2023-01-31 16:36:12</sys_created_on>
         <sys_id>27f3392c15b821107f446422a81242e7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Documents</sys_name>
         <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
         <sys_policy/>
         <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_be82f5a815b821107f446422a81242c8_documents_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-01-31 16:36:12</sys_updated_on>
         <url/>
@@ -856,11 +832,11 @@
         <sys_created_on>2023-01-31 16:36:12</sys_created_on>
         <sys_id>a3f3392c15b821107f446422a81242e2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
         <sys_policy/>
         <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_be82f5a815b821107f446422a81242c8___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-01-31 16:36:12</sys_updated_on>
         <url/>
