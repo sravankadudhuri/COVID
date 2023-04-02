@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
     <sys_db_object action="INSERT_OR_UPDATE">
-        <access/>
+        <access>public</access>
         <actions_access>false</actions_access>
         <alter_access>false</alter_access>
         <caller_access/>
@@ -11,28 +11,28 @@
         <delete_access>false</delete_access>
         <extension_model/>
         <is_extendable>false</is_extendable>
-        <label>Imp Tmpl Kb Knowledge</label>
+        <label>Microsoft Docs</label>
         <live_feed_enabled>false</live_feed_enabled>
-        <name>u_imp_tmpl_kb_knowledge</name>
-        <number_ref/>
-        <provider_class/>
+        <name>x_snc_covid_svn_microsoft_docs</name>
+        <number_ref display_value="EXTERNALDOC">2d439e391930a1107f44b9d408ae0b98</number_ref>
+        <provider_class>com.glide.ais.configuration.externalcontent.AisBackedVTable</provider_class>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Import Set Row" name="sys_import_set_row">03f460e3551201107f44d7f62dcafe4d</super_class>
+        <super_class display_value="label" name="v_ais_external_search_content">3d689ac0e4c221107f44bf1d1302fac9</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-01-31 07:32:30</sys_created_on>
-        <sys_id>02792e25f92121107f44b45e52468e52</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Imp Tmpl Kb Knowledge</sys_name>
+        <sys_created_on>2023-01-31 08:35:55</sys_created_on>
+        <sys_id>8e689ac0e4c221107f44bf1d1302faff</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Microsoft Docs</sys_name>
         <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
         <sys_policy/>
         <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
-        <sys_update_name>sys_db_object_02792e25f92121107f44b45e52468e52</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-31 07:32:30</sys_updated_on>
+        <sys_update_name>sys_db_object_8e689ac0e4c221107f44bf1d1302faff</sys_update_name>
+        <sys_updated_by>svnadmin</sys_updated_by>
+        <sys_updated_on>2023-02-04 16:06:22</sys_updated_on>
         <update_access>false</update_access>
         <user_role/>
         <ws_access>true</ws_access>
