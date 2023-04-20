@@ -28,4 +28,4 @@ jobs:
       # Runs a single command using the runners shell
       - name: Call ServiceNow REST API
         run: |
-          curl -X POST -H "Accept: application/json" -H "Content-Type: application/json" -u svnadminone:Sravan@1234 -d '{"short_description":"test from github"}' https://nowlearning-nlinst00556918-001.lab.service-now.com/api/now/table/change_request
+          curl -X POST -H "Accept: application/json" -H "Content-Type: application/json" -u admin:Sravan@2310 -d '{"short_description":"test from github"}' https://https://dev126481.service-now.com//api/now/table/change_request
