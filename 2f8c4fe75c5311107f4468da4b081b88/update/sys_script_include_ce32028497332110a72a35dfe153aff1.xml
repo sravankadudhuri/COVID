@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_covid_svn.PowershellProbe</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>A MIDServer helper probe library that generates Powershell commands onto the ECC queue and handles responses </description>
+        <name>PowershellProbe</name>
+        <script><![CDATA[var PowershellProbe = Class.create();
+PowershellProbe.prototype = {
+    initialize: function(mid, server) {
+        this.setMidServer(mid);
+        this.setPSServer(server);
+    },
+    
+    _createEccOutputRecord: function() {
+        var ecc = new GlideRecord("ecc_queue");
+        ecc.initialize();
+        ecc.agent = this.mid;
+        ecc.topic = "Powershell";
+        ecc.name = "Windows - Powershell";
+        ecc.source = this.psServer;
+        ecc.queue = "output";
+        ecc.state = "ready";
+        ecc.payload = this._getPayloadString();
+        return ecc.insert();
+    },
+    
+    _getPayloadString: function() {
+        var xmldoc = new XMLDocument("<parameters/>");
+		
+        var el = xmldoc.createElement("parameter");
+        xmldoc.setCurrent(el);
+        xmldoc.setAttribute("name", "skip_sensor");
+        xmldoc.setAttribute("value", "true");
+        
+		xmldoc.setCurrent(xmldoc.getDocumentElement());
+        el = xmldoc.createElement("parameter");
+        xmldoc.setCurrent(el);
+        xmldoc.setAttribute("name", "probe_name");
+        xmldoc.setAttribute("value", "Windows - Powershell");
+        
+        xmldoc.setCurrent(xmldoc.getDocumentElement());
+        el = xmldoc.createElement("parameter");
+        xmldoc.setCurrent(el);
+        xmldoc.setAttribute("name", "script.ps1");
+        xmldoc.setAttribute("value", this.prettyScript);
+		// <parameter name="powershell_true_use_mid_service_account" value="true"/>
+		xmldoc.setCurrent(xmldoc.getDocumentElement());
+        el = xmldoc.createElement("parameter");
+        xmldoc.setCurrent(el);
+        xmldoc.setAttribute("name", "powershell_true_use_mid_service_account");
+        xmldoc.setAttribute("value", "true");
+        
+        return xmldoc.toString();
+    },
+	
+	
+    _getPayload: function(ecc) {
+        if (ecc.payload != "<see_attachment/>") {
+        	return ecc.payload;
+        }
+        //var sa = new Packages.com.glide.ui.SysAttachment();
+        //var payload = sa.get(ecc, "payload");
+        //return payload;
+    },
+    
+    _getResponse : function(eccQueueRecordId) {
+        var maxtime = 100;
+        var counter = 0;
+        var found = false;
+        var eccResponse = new GlideRecord("ecc_queue");
+        eccResponse.addQuery("queue", "input");
+        eccResponse.addQuery("response_to", eccQueueRecordId);
+        while (counter < maxtime && found == false) {
+            eccResponse.query();
+            if (eccResponse.next()) {
+                found = true;
+            }
+            gs.sleep(1000);
+            counter++;
+        }
+        {
+		var payload = this._getPayload(eccResponse);
+			gs.info("svntst "+payload);
+		var xmldoc = new XMLDocument(payload);
+		var retObj = new Object();
+		retObj.output="";
+		retObj.error="";
+        if (found) {
+			retObj.output = ""+this._getResponseOutputValue(xmldoc);
+			retObj.error = ""+this._getResponseErrorValue(xmldoc);
+			return retObj;
+		}
+		}
+    },
+	_getResponseErrorValue: function(xmldoc) {
+		var error = xmldoc.getNodeText("//results/result/error");
+		gs.info("svntst "+error);
+		return error;
+	},
+	
+	_getResponseOutputValue: function(xmldoc) {
+		var output = xmldoc.getNodeText("//results/result/output");
+		return output;
+	},
+    
+    execute: function(waitForResponse) {
+        var recSysId = this._createEccOutputRecord();
+        if(waitForResponse == true){
+			var response = this._getResponse(recSysId);
+			return response;
+        }
+    },
+    
+    setMidServer: function(mid) {
+		gs.info("svntst "+mid);
+        this.mid = "mid.server."+mid;
+    },
+    
+    setPSServer: function(server) {
+        this.psServer = server;
+    },
+    
+    setScript: function(script) {
+        this.prettyScript = script;
+        this.encodedScript = GlideStringUtil.escapeHTML(script);
+    },
+    
+    
+    
+    type: 'PowershellProbe'
+}
+	
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-28 07:29:46</sys_created_on>
+        <sys_id>ce32028497332110a72a35dfe153aff1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PowershellProbe</sys_name>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>sys_script_include_ce32028497332110a72a35dfe153aff1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-28 07:29:46</sys_updated_on>
+    </sys_script_include>
+</record_update>

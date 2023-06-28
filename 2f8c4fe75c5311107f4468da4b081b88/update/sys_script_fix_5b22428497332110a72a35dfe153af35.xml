@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>Fetch URL Status PS</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[function getStatus(code) {
+    gs.info("svntst " + code);
+    //var script = "Invoke-WebRequest -UseBasicParsing -Uri 'https://www.google.com'";
+    var ecc = new GlideRecord("ecc_queue");
+    ecc.initialize();
+    ecc.agent = "mid.server.SvnMidOne";
+    ecc.topic = "Powershell";
+    ecc.name = "Windows - Powershell";
+    ecc.source = "192.168.23.128";
+    ecc.queue = "output";
+    ecc.state = "ready";
+    ecc.payload = '<?xml version="1.0" encoding="UTF-8"?><parameters><parameter name="skip_sensor" value="true"/><parameter name="probe_name" value="Windows - Powershell"/><parameter name="script.ps1" value="' + code + '"/><parameter name="powershell_true_use_mid_service_account" value="true"/></parameters>';
+    var id = ecc.insert();
+
+    var count = 0;
+    while (count < 60) {
+        count++;
+        gs.sleep(1000);
+        // gs.info("svntst")
+    }
+
+    var eccGr = new GlideRecord("ecc_queue");
+    eccGr.addEncodedQuery("agent=mid.server.SvnMidOne^topic=Powershell^response_to=" + id + "^queue=input^state=ready");
+    eccGr.query();
+
+    if (eccGr.next()) {
+        var xmlDoc = new XMLDocument(eccGr.getValue("payload"));
+        //gs.info(JSON.stringify(xmlDoc.getNodeText("//results/result/output")).split(":")[1]);
+        gs.info(JSON.stringify(xmlDoc.getNodeText("//results/result/output")));
+
+    }
+}
+
+var url = 'http://www.testingmcafeesites.com/index.html,http://www.testingmcafeesites.com/testcat_ac.html,http://www.testingmcafeesites.com/testcat_al.html,http://www.testingmcafeesites.com/testcat_an.html,http://www.testingmcafeesites.com/testcat_au.html,http://www.testingmcafeesites.com/testcat_be.html,http://www.testingmcafeesites.com/testcat_bl.html,http://www.testingmcafeesites.com/testcat_bu.html,http://www.testingmcafeesites.com/testcat_ch.html,http://www.testingmcafeesites.com/testcat_cm.html,http://www.testingmcafeesites.com/testcat_co.html,http://www.testingmcafeesites.com/testcat_cp.html,http://www.testingmcafeesites.com/testcat_cs.html,http://www.testingmcafeesites.com/testcat_cv.html,http://www.testingmcafeesites.com/testcat_dc.html,http://www.testingmcafeesites.com/testcat_dl.html,http://www.testingmcafeesites.com/testcat_dp.html,http://www.testingmcafeesites.com/testcat_dr.html,http://www.testingmcafeesites.com/testcat_eb.html,http://www.testingmcafeesites.com/testcat_ed.html,http://www.testingmcafeesites.com/testcat_et.html,http://www.testingmcafeesites.com/testcat_ex.html,http://www.testingmcafeesites.com/testcat_fb.html,http://www.testingmcafeesites.com/testcat_fi.html,http://www.testingmcafeesites.com/testcat_fk.html,http://www.testingmcafeesites.com/testcat_gb.html,http://www.testingmcafeesites.com/testcat_gm.html,http://www.testingmcafeesites.com/testcat_gr.html,http://www.testingmcafeesites.com/testcat_gv.html,http://www.testingmcafeesites.com/testcat_hk.html,http://www.testingmcafeesites.com/testcat_hl.html,http://www.testingmcafeesites.com/testcat_hm.html,http://www.testingmcafeesites.com/testcat_hr.html,http://www.testingmcafeesites.com/testcat_hs.html,http://www.testingmcafeesites.com/testcat_hw.html,http://www.testingmcafeesites.com/testcat_ia.html,http://www.testingmcafeesites.com/testcat_il.html,http://www.testingmcafeesites.com/testcat_im.html,http://www.testingmcafeesites.com/testcat_in.html,http://www.testingmcafeesites.com/testcat_io.html,http://www.testingmcafeesites.com/testcat_ir.html,http://www.testingmcafeesites.com/testcat_is.html,http://www.testingmcafeesites.com/testcat_it.html,http://www.testingmcafeesites.com/testcat_js.html,http://www.testingmcafeesites.com/testcat_mb.html,http://www.testingmcafeesites.com/testcat_md.html,http://www.testingmcafeesites.com/testcat_mg.html,http://www.testingmcafeesites.com/testcat_mk.html,http://www.testingmcafeesites.com/testcat_mn.html,http://www.testingmcafeesites.com/testcat_mo.html,http://www.testingmcafeesites.com/testcat_mp.html,http://www.testingmcafeesites.com/testcat_mr.html,http://www.testingmcafeesites.com/testcat_ms.html,http://www.testingmcafeesites.com/testcat_mv.html,http://www.testingmcafeesites.com/testcat_nd.html,http://www.testingmcafeesites.com/testcat_np.html,http://www.testingmcafeesites.com/testcat_ns.html,http://www.testingmcafeesites.com/testcat_nt.html,http://www.testingmcafeesites.com/testcat_nw.html,http://www.testingmcafeesites.com/testcat_os.html,http://www.testingmcafeesites.com/testcat_pa.html,http://www.testingmcafeesites.com/testcat_pc.html,http://www.testingmcafeesites.com/testcat_pd.html,http://www.testingmcafeesites.com/testcat_ph.html,http://www.testingmcafeesites.com/testcat_pm.html,http://www.testingmcafeesites.com/testcat_pn.html,http://www.testingmcafeesites.com/testcat_po.html,http://www.testingmcafeesites.com/testcat_pp.html,http://www.testingmcafeesites.com/testcat_pr.html,http://www.testingmcafeesites.com/testcat_ps.html,http://www.testingmcafeesites.com/testcat_pu.html,http://www.testingmcafeesites.com/testcat_ra.html,http://www.testingmcafeesites.com/testcat_rb.html,http://www.testingmcafeesites.com/testcat_re.html,http://www.testingmcafeesites.com/testcat_rh.html,http://www.testingmcafeesites.com/testcat_rl.html,http://www.testingmcafeesites.com/testcat_rm.html,http://www.testingmcafeesites.com/testcat_rs.html,http://www.testingmcafeesites.com/testcat_sc.html,http://www.testingmcafeesites.com/testcat_se.html,http://www.testingmcafeesites.com/testcat_sm.html,http://www.testingmcafeesites.com/testcat_sn.html,http://www.testingmcafeesites.com/testcat_sp.html,http://www.testingmcafeesites.com/testcat_st.html,http://www.testingmcafeesites.com/testcat_su.html,http://www.testingmcafeesites.com/testcat_sw.html,http://www.testingmcafeesites.com/testcat_sx.html,http://www.testingmcafeesites.com/testcat_sy.html,http://www.testingmcafeesites.com/testcat_tb.html,http://www.testingmcafeesites.com/testcat_tf.html,http://www.testingmcafeesites.com/testcat_tg.html,http://www.testingmcafeesites.com/testcat_ti.html,http://www.testingmcafeesites.com/testcat_to.html,http://www.testingmcafeesites.com/testcat_tr.html,http://www.testingmcafeesites.com/testcat_tt.html,http://www.testingmcafeesites.com/testcat_uk.html,http://www.testingmcafeesites.com/testcat_uncat.html,http://www.testingmcafeesites.com/testcat_vi.html,http://www.testingmcafeesites.com/testcat_vs.html,http://www.testingmcafeesites.com/testcat_wa.html,http://www.testingmcafeesites.com/testcat_we.html,http://www.testingmcafeesites.com/testcat_wm.html,http://www.testingmcafeesites.com/testcat_wp.html,http://www.testingmcafeesites.com/testcat_wx.html,http://www.testingmcafeesites.com/porn/index.html,http://www.testingmcafeesites.com/testrep_gray.html,http://www.testingmcafeesites.com/testrep_red.html,http://www.testingmcafeesites.com/testreputation_highrisk.html,http://www.testingmcafeesites.com/testrep_yellow.html,https://www.google.com/notfound'.split(",");
+var len = url.length;
+for (var i = 0; i < url.length; i += 100) {
+    var code = "$urls = @(&#10; ";
+    var lim = (len < 100) ? i + len : 100;
+
+
+    for (var j = i; j < lim; j++) {
+        code += "\t&quot;" + url[j] + ((j == lim-1) ? "&quot;&#10;" : "&quot;,&#10;");
+    }
+    code += ")&#10;&#10;$responses = foreach ($url in $urls) {&#10;    $response = $null&#10;    try {&#10;        $request = Invoke-WebRequest -Uri $url -UseBasicParsing -TimeoutSec 15&#10;        $response = $request.StatusCode&#10;    } catch {&#10;        $response = &quot;Error: $($_.Exception.Message)&quot;&#10;    }&#10;    $response&#10;}&#10;&#10;$responseString = $responses -join &quot;`r`n&quot;&#10;$responseString&#10;";
+
+    getStatus(code);
+    gs.info("batch end");
+    len -= 100;
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-28 07:29:34</sys_created_on>
+        <sys_id>5b22428497332110a72a35dfe153af35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fetch URL Status PS</sys_name>
+        <sys_package display_value="Covid Svn" source="x_snc_covid_svn">2f8c4fe75c5311107f4468da4b081b88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Svn">2f8c4fe75c5311107f4468da4b081b88</sys_scope>
+        <sys_update_name>sys_script_fix_5b22428497332110a72a35dfe153af35</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-28 07:29:34</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>
